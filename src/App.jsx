@@ -318,14 +318,10 @@ function App() {
                 <button
                   className="btn btn-color-2 project-btn"
                   onClick={() =>
-<<<<<<< HEAD
                     window.open(
                       "https://fast-react-pizzzza-co.netlify.app/",
                       "_blank"
                     )
-=======
-                    window.open("https://fast-react-pizzzza-co.netlify.app/", "_blank")
->>>>>>> 0f970eff2e0330defcb7b9e35cfd8127361dd239
                   }
                 >
                   Live Demo
@@ -351,14 +347,7 @@ function App() {
                 <button
                   className="btn btn-color-2 project-btn"
                   onClick={() =>
-<<<<<<< HEAD
                     window.open("https://factforge.netlify.app/", "_blank")
-=======
-                    window.open(
-                      "https://factforge.netlify.app/",
-                      "_blank"
-                    )
->>>>>>> 0f970eff2e0330defcb7b9e35cfd8127361dd239
                   }
                 >
                   Live Demo
