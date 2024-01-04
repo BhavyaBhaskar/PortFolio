@@ -318,7 +318,7 @@ function App() {
                 <button
                   className="btn btn-color-2 project-btn"
                   onClick={() =>
-                    window.open("https://factforge.netlify.app/", "_blank")
+                    window.open("https://fast-react-pizzzza-co.netlify.app/", "_blank")
                   }
                 >
                   Live Demo
@@ -345,7 +345,7 @@ function App() {
                   className="btn btn-color-2 project-btn"
                   onClick={() =>
                     window.open(
-                      "https://fast-react-pizzzza-co.netlify.app/",
+                      "https://factforge.netlify.app/",
                       "_blank"
                     )
                   }
