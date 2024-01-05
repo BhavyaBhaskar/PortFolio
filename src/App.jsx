@@ -388,7 +388,10 @@ function App() {
             </div>
             <div className="details-container color-container">
               <div className="article-container">
-                <div className="project-img"></div>
+                <div
+                  className="project-img"
+                  // style={{ paddingTop: "10px" }}
+                ></div>
               </div>
               <h2 className="experience-sub-title project-title">
                 Student Exam Registration System
