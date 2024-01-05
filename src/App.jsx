@@ -333,7 +333,12 @@ function App() {
               <div className="btn-container">
                 <button
                   className="btn btn-color-2 project-btn"
-                  onClick="location.href='https://github.com/'"
+                  onClick={() =>
+                    window.open(
+                      "https://github.com/BhavyaBhaskar/FastReactPizzaCo",
+                      "_blank"
+                    )
+                  }
                 >
                   Github
                 </button>
@@ -362,7 +367,12 @@ function App() {
               <div className="btn-container">
                 <button
                   className="btn btn-color-2 project-btn"
-                  onClick="location.href='https://github.com/'"
+                  onClick={() =>
+                    window.open(
+                      "https://github.com/BhavyaBhaskar/FactForge",
+                      "_blank"
+                    )
+                  }
                 >
                   Github
                 </button>
