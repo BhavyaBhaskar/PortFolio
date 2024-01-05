@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <nav id="desktop-nav">
-        <div className="logo">Bhavya Bhaskar</div>
+        <div className="logo">Bhavya</div>
         <div>
           <ul className="nav-links">
             <li>
