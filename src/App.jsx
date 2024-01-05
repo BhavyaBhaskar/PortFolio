@@ -67,7 +67,7 @@ function App() {
           <div className="btn-container">
             <button
               className="btn btn-color-2"
-              onClick="window.open('./resume-example.pdf')"
+              onClick={() => (window.location = "CV.pdf")}
             >
               Download CV
             </button>
@@ -122,8 +122,8 @@ function App() {
                 />
                 <h3>Experience</h3>
                 <p>
-                  1+ years <br />
-                  Frontend Development
+                  CodeSoft - Java Programming Internship <br />
+                  Internship Studio - Web Development Internship
                 </p>
               </div>
               <div className="details-container">
@@ -136,7 +136,7 @@ function App() {
                 <p>
                   High School Diploma
                   <br />
-                  B.Tech. Bachelors Degree
+                  B.Tech. Computer Science - Sophomore
                 </p>
               </div>
             </div>
@@ -280,6 +280,28 @@ function App() {
                     <h3>Git / Github</h3>
                     <p>Basic</p>
                   </div>
+                </article>
+                <article>
+                  <img
+                    src="checkmark.png"
+                    alt="Experience icon"
+                    className="icon"
+                  />
+                  <div>
+                    <h3>Python</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  {/* <img
+                    src="checkmark.png"
+                    alt="Experience icon"
+                    className="icon"
+                  />
+                  <div>
+                    <h3>Python</h3>
+                    <p>Intermediate</p>
+                  </div> */}
                 </article>
               </div>
             </div>
