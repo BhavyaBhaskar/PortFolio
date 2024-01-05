@@ -386,6 +386,38 @@ function App() {
                 </button>
               </div>
             </div>
+            <div className="details-container color-container">
+              <div className="article-container">
+                <div className="project-img"></div>.
+              </div>
+              <h2 className="experience-sub-title project-title">
+                Student Exam Registration System
+              </h2>
+              <div className="btn-container">
+                <button
+                  className="btn btn-color-2 project-btn"
+                  onClick={() =>
+                    window.open(
+                      "https://github.com/BhavyaBhaskar/VitAP-Student-Exam-Registration-Portal",
+                      "_blank"
+                    )
+                  }
+                >
+                  Github
+                </button>
+                {/* <button
+                  className="btn btn-color-2 project-btn"
+                  onClick={() =>
+                    window.open(
+                      "https://fast-react-pizzzza-co.netlify.app/",
+                      "_blank"
+                    )
+                  }
+                >
+                  Live Demo
+                </button> */}
+              </div>
+            </div>
           </div>
         </div>
         <img
