@@ -67,7 +67,7 @@ function App() {
           <div className="btn-container">
             <button
               className="btn btn-color-2"
-              onClick={() => (window.location = "CV.pdf")}
+              onClick={() => (window.location = "BhavyaBhaskarCV.pdf")}
             >
               Download CV
             </button>
