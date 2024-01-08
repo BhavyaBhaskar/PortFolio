@@ -139,6 +139,23 @@ function App() {
                   B.Tech. Computer Science - Sophomore
                 </p>
               </div>
+              <div className="details-container">
+                <img
+                  src="Certificate.png"
+                  alt="Experience icon"
+                  className="icon"
+                />
+                <h3>Certificate</h3>
+                <p>
+                  Udemy - The Ultimate React Course 2024: React, Redux & More
+                  <br />
+                  Data Camp - Data Analyst in R
+                  <br />
+                  Be 10X - Generative Al
+                  <br />
+                  AI WorkShop for Designers
+                </p>
+              </div>
             </div>
             <div className="text-container">
               <p>
