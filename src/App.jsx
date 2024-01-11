@@ -121,8 +121,9 @@ function App() {
                   className="icon"
                 />
                 <h3>Experience</h3>
-                <p>
-                  CodeSoft - Java Programming Internship <br />
+                <p className="left">
+                  CodeSoft - Java Programming Internship
+                  <br />
                   Internship Studio - Web Development Internship
                 </p>
               </div>
