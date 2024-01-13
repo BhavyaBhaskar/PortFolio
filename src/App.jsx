@@ -121,7 +121,7 @@ function App() {
                   className="icon"
                 />
                 <h3>Experience</h3>
-                <p className="left">
+                <p>
                   CodeSoft - Java Programming Internship
                   <br />
                   Internship Studio - Web Development Internship
@@ -140,22 +140,21 @@ function App() {
                   B.Tech. Computer Science - Sophomore
                 </p>
               </div>
-              <div className="details-container">
+              <div className="details-container-left">
                 <img
                   src="Certificate.png"
                   alt="Experience icon"
                   className="icon"
                 />
                 <h3>Certificate</h3>
-                <p>
-                  Udemy - The Ultimate React Course 2024: React, Redux & More
-                  <br />
-                  Data Camp - Data Analyst in R
-                  <br />
-                  Be 10X - Generative Al
-                  <br />
-                  AI WorkShop for Designers
-                </p>
+                <ul>
+                  <li>
+                    Udemy - The Ultimate React Course 2024: React, Redux & More
+                  </li>
+                  <li>Data Camp - Data Analyst in R</li>
+                  <li>Be 10X - Generative Al</li>
+                  <li>AI WorkShop for Designers</li>
+                </ul>
               </div>
             </div>
             <div className="text-container">
