@@ -114,31 +114,30 @@ function App() {
           </div> */}
           <div className="about-details-container">
             <div className="about-containers">
-              <div className="details-container">
+              <div className="details-container-left">
                 <img
                   src="experience.png"
                   alt="Experience icon"
                   className="icon"
                 />
                 <h3>Experience</h3>
-                <p>
-                  CodeSoft - Java Programming Internship
-                  <br />
-                  Internship Studio - Web Development Internship
-                </p>
+                <ul>
+                  <li>Internship Studio - Web Development Intern</li>
+                  <li>Internship Studio - AWS Architect Intern</li>
+                  <li>CodeSoft - Java Programming Intern</li>
+                </ul>
               </div>
-              <div className="details-container">
+              <div className="details-container-left">
                 <img
                   src="education.png"
                   alt="Education icon"
                   className="icon"
                 />
                 <h3>Education</h3>
-                <p>
-                  High School Diploma
-                  <br />
-                  B.Tech. Computer Science - Sophomore
-                </p>
+                <ul>
+                  <li>High School Diploma</li>
+                  <li>B.Tech Computer Science - Sophomore</li>
+                </ul>
               </div>
               <div className="details-container-left">
                 <img
@@ -345,7 +344,7 @@ function App() {
                 />
               </div>
               <h2 className="experience-sub-title project-title">
-                Fast React Pizza CO.
+                Swift Slice
               </h2>
               <div className="btn-container">
                 <button
@@ -362,10 +361,7 @@ function App() {
                 <button
                   className="btn btn-color-2 project-btn"
                   onClick={() =>
-                    window.open(
-                      "https://fast-react-pizzzza-co.netlify.app/",
-                      "_blank"
-                    )
+                    window.open("https://swift-slice.vercel.app/", "_blank")
                   }
                 >
                   Live Demo
@@ -405,10 +401,52 @@ function App() {
             </div>
             <div className="details-container color-container">
               <div className="article-container">
-                <div
-                  className="project-img"
-                  // style={{ paddingTop: "10px" }}
-                ></div>
+                <div className="project-img">
+                  <img
+                    src="FusionFeed.png"
+                    alt="Project 2"
+                    className="project-img"
+                  />
+                </div>
+              </div>
+              <h2 className="experience-sub-title project-title">
+                Fusion Feed
+              </h2>
+              <div className="btn-container">
+                <button
+                  className="btn btn-color-2 project-btn"
+                  onClick={() =>
+                    window.open(
+                      "https://github.com/BhavyaBhaskar/VitAP-Student-Exam-Registration-Portal",
+                      "_blank"
+                    )
+                  }
+                >
+                  Github
+                </button>
+                <button
+                  className="btn btn-color-2 project-btn"
+                  onClick={() =>
+                    window.open("https://fusion-feed.vercel.app/", "_blank")
+                  }
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="experience-details-container">
+          <div className="about-containers">
+            <div className="details-container color-container ">
+              <div className="article-container">
+                <div className="project-img">
+                  {/* <img
+                    src="FusionFeed.png"
+                    alt="Project 2"
+                    className="project-img"
+                  /> */}
+                </div>
               </div>
               <h2 className="experience-sub-title project-title">
                 Student Exam Registration System
@@ -428,26 +466,25 @@ function App() {
                 {/* <button
                   className="btn btn-color-2 project-btn"
                   onClick={() =>
-                    window.open(
-                      "https://fast-react-pizzzza-co.netlify.app/",
-                      "_blank"
-                    )
+                    window.open("https://fusion-feed.vercel.app/", "_blank")
                   }
                 >
                   Live Demo
                 </button> */}
               </div>
             </div>
+            <div className="details-container color-container hidden"></div>
+            <div className="details-container color-container hidden"></div>
           </div>
         </div>
-        <img
+        {/* <img
           src="arrow.png"
           alt="Arrow icon"
           className="icon arrow"
           onClick={() => (window.location.href = "./#contact")}
-        />
+        /> */}
       </section>
-      <section id="contact">
+      <section id="contact" className="contact">
         <p className="section__text__p1">Get in Touch</p>
         <h1 className="title">Contact Me</h1>
         <div className="contact-info-upper-container">
