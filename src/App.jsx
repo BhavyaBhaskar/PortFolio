@@ -417,7 +417,7 @@ function App() {
                   className="btn btn-color-2 project-btn"
                   onClick={() =>
                     window.open(
-                      "https://github.com/BhavyaBhaskar/VitAP-Student-Exam-Registration-Portal",
+                      "https://github.com/BhavyaBhaskar/FusionFeed",
                       "_blank"
                     )
                   }
@@ -439,6 +439,41 @@ function App() {
         <div className="experience-details-container">
           <div className="about-containers">
             <div className="details-container color-container ">
+              <div className="article-container">
+                <div className="project-img">
+                  <img
+                    src="BBEletronics.png"
+                    alt="Project 2"
+                    className="project-img"
+                  />
+                </div>
+              </div>
+              <h2 className="experience-sub-title project-title">
+                BBElectronics
+              </h2>
+              <div className="btn-container">
+                <button
+                  className="btn btn-color-2 project-btn"
+                  onClick={() =>
+                    window.open(
+                      "https://github.com/BhavyaBhaskar/Electronics",
+                      "_blank"
+                    )
+                  }
+                >
+                  Github
+                </button>
+                <button
+                  className="btn btn-color-2 project-btn"
+                  onClick={() =>
+                    window.open("https://bbelectronics.vercel.app/", "_blank")
+                  }
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div className="details-container color-container">
               <div className="article-container">
                 <div className="project-img">
                   {/* <img
@@ -473,7 +508,6 @@ function App() {
                 </button> */}
               </div>
             </div>
-            <div className="details-container color-container hidden"></div>
             <div className="details-container color-container hidden"></div>
           </div>
         </div>
